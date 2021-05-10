@@ -1,0 +1,301 @@
+
+.header
+{
+    background:url(../img/the-town-01.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+
+.header .overlay
+{
+    background-color: rgba(3,3,3,0.7);
+    height: 100vh;
+    color: #fefff4
+}
+nav.navbar
+{
+    padding: 20px;
+}
+.navbar-brand
+{
+    color: #fefff4 !important;
+    font-weight: 500;
+}
+li.nav-item
+{
+    margin-left: 23px;
+}
+.nav-item .nav-link
+{
+    font-size: 21px;
+    color: #e1dcd6 !important;
+    /* font-weight: 300; */
+}
+
+.header .our_header h4
+{
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.header .our_header
+{
+    padding: 180px 0;
+}
+.header .our_header h4+p
+{
+    margin-bottom: 10px;
+    color: #fbfffd !important;
+    font-size: 17px;
+    margin: 20px 0 8px;
+}
+
+.header .our_header p:last-child
+{
+    font-size: 17px;
+    color: #fbfffd !important;
+    padding: cacl(100vh - 400px);
+}
+
+.header .our_header span
+{
+    display: inline-block;
+    background-color: #345679;
+    color: #fcfef9;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto 0;
+    font-weight: normal;
+    font-size: 55px;
+}
+
+.what
+{
+    padding: 50px;
+}
+
+.what h3
+{
+    margin-bottom: 25px;
+    color: #3089b3;
+    font-size: 32px;
+}
+
+.what p.text
+{
+    color: #91919d;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 60px;
+}
+
+.what p span
+{
+    color: #4589ac;
+}
+.what .our_what
+{
+    width: 90%;
+}
+.what .media-body
+{
+    width: 70%;
+    position: relative;
+    top: -65px;
+    left: 20px;
+}
+.what .media-body h4
+{
+    color: #3089b3;
+    margin: 60px 0 20px;
+}
+.what .media-body p
+{
+    color: #91919d;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.what .media-body button
+{
+    border-radius: 0;
+    background-color: #336799;
+    border-color: #336799;
+    height: 40px;
+    line-height: 0;
+    margin-top: 15px;
+
+}
+.our_testimonials
+{
+    background:url(../img/gallery-img-06.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.our_testimonials .overlay
+{
+    background-color: rgba(3,3,3,0.7);
+    height: 100%;
+    width: 100%;
+    color: floralwhite;
+    padding: 40px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    
+}
+
+.our_testimonials .overlay h3
+{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.our_testimonials .overlay p.text
+{
+    width: 45%;
+    margin: auto ;
+    color: #fefff4;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.our_testimonials .carousel
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: inline-flex;
+    align-items: center;
+    color: floralwhite;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.our_testimonials .carousel .carousel-item img
+{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 30px;
+    display: flex;
+}
+.our_testimonials .carousel .carousel-item p
+{
+    color: #fefff4;
+    font-size: 17px;
+    line-height: 1.7;
+}
+.our_testimonials .carousel .carousel-item p+h6
+{
+    font-weight: normal;
+    font-style: italic;
+    color: #a0a0a0;
+}
+ol.carousel-indicators li
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor:pointer;
+    background-color: #3089b3;
+}
+ol.carousel-indicators li.active
+{
+    background-color: #345679;
+}
+.our_Gallery
+{
+    padding: 50px 0;
+}
+.our_Gallery h3
+{
+    margin-bottom: 25px;
+    color: #3089b3;
+    font-size: 32px;
+}
+.our_Gallery p
+{
+    width: 60%;
+    margin: auto;
+    color: #91919d;
+    font-size: 17px;
+    line-height: 1.7;
+}
+.our_Gallery .carousel
+{
+    min-height: 385px;
+    margin-top: 40px;
+}
+.our_Gallery .carousel .carousel-inner .carousel-item img
+{
+    height: 297px;
+    width: 100%;
+}
+
+.our_contact
+{
+    background:url(../img/gallery-img-06.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 300px;
+}
+.our_contact .overlay
+{
+    background-color: rgba(3,3,3,0.7);
+    min-height: 300px;
+    color: #fefff4;
+    padding: 40px 0;
+}
+.our_contact .overlay h3
+{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.our_contact .overlay p
+{
+    width: 59%;
+    margin: auto;
+    color: #fefff4;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+.our_contact input
+{
+    margin-bottom: 20px;
+}
+
+.our_contact textarea
+{
+    height: 145px;
+}
+   
+    
+.our_contact ul 
+{
+    margin-left: 146px;
+    margin-top: 4px;
+}
+
+.our_contact ul li
+{
+    font-size: 25px;
+    padding: 0 0 58px;
+}
